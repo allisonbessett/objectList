@@ -15,11 +15,11 @@
 
   <body>
     <header>
-      <h1>Favorite Cities</h1>
+      <h1>Favorite Cities</h1> 
     </header>
     
-    <div id="cityTable">
-     <table>
+    <div>
+     <table id="cityTable">
       <thead>
         <tr>
           <th>City Name</th>
@@ -27,23 +27,17 @@
         </tr>
        </thead>
        <tbody id="tBody">
-         <tr id="tRow">
-           <td id="tCity">
-           </td>
-           <td id="tCountry">
-           </td>
-         </tr>
        </tbody>
     </table>
-      </div>
     <form>
       <button type="button" id="addItemButton">Add Item</button>  
     </form>
+  </div>
     
     <div>
       <form id="cityForm">
-          City<input type="textbox" id="city">
-          Country<input type="textbox" id="country">
+          City<input type="text" id="city">
+          Country<input type="text" id="country">
         <input type="submit" value="Submit" id="submit">
       </form>
     </div>
